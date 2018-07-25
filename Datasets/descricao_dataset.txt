@@ -1,0 +1,109 @@
+CARACTERISTICS :
+
+Num_Acc : Accident ID
+
+jour : Day of the accident
+
+mois : Month of the accident
+
+an : Year of the accident
+
+hrmn : Time of the accident in hour and minutes (hhmm)
+
+lum : Lighting : lighting conditions in which the accident occurred
+
+1 - Full day
+
+2 - Twilight or dawn
+
+3 - Night without public lighting
+
+4 - Night with public lighting not lit
+
+5 - Night with public lighting on
+
+dep : Departmeent : INSEE Code (National Institute of Statistics and Economic Studies) of the departmeent followed by a 0 (201 Corse-du-Sud - 202 Haute-Corse)
+
+com : Municipality: The commune number is a code given by INSEE. The code has 3 numbers set to the right.
+
+Localisation :
+
+1 - Out of agglomeration
+
+2 - In built-up areas
+
+int : Type of Intersection :
+
+1 - Out of intersection
+
+2 - Intersection in X
+
+3 - Intersection in T
+
+4 - Intersection in Y
+
+5 - Intersection with more than 4 branches
+
+6 - Giratory
+
+7 - Place
+
+8 - Level crossing
+
+9 - Other intersection
+
+atm : Atmospheric conditions:
+
+1 - Normal
+
+2 - Light rain
+
+3 - Heavy rain
+
+4 - Snow - hail
+
+5 - Fog - smoke
+
+6 - Strong wind - storm
+
+7 - Dazzling weather
+
+8 - Cloudy weather
+
+9 - Other
+
+col : Type of collision:
+
+1 - Two vehicles - frontal
+
+2 - Two vehicles - from the rear
+
+3 - Two vehicles - by the side
+
+4 - Three vehicles and more - in chain
+
+5 - Three or more vehicles - multiple collisions
+
+6 - Other collision
+
+7 - Without collision
+
+adr : Postal address: variable filled in for accidents occurring in built-up areas
+
+gps : GPS coding: 1 originator character:
+
+M = Métropole
+
+A = Antilles (Martinique or Guadeloupe)
+
+G = Guyane
+
+R = Réunion
+
+Y = Mayotte
+
+Geographic coordinates in decimal degrees:
+
+lat : Latitude
+
+long : Longitude
